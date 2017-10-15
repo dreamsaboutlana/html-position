@@ -1,0 +1,49 @@
+.box {
+  width: 150px;
+  height: 150px;
+}
+
+.box1 {
+  position: fixed;
+  background-color: red;
+  width: 350px;
+  height: 350px;
+}
+
+.box1 p {
+  margin: 300px 0 0 20px;
+  color: white;
+  font: 20px Arial;
+}
+
+.box2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: green;
+}
+
+.box2 p {
+  margin: 200px 0 0 20px;
+  color: white;
+  font: 20px Arial;
+}
+
+.box3 {
+  position: relative;
+  background-color: lightblue;
+  width: 150px;
+  height: 150px;
+}
+
+.box3 p {
+  margin: 0 0 0 20px;
+  padding-left: 10px;
+  color: white;
+  font: 20px Arial;
+}
+
+.box4 {
+  position: static;
+  background-color: yellow;
+}
